@@ -18,7 +18,7 @@ class EmployeeController extends Controller
        
         
 
-        // ✅ Update only status
+       
         $task->update([
             'status' => $request->status,
         ]);
